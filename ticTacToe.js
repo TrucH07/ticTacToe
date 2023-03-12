@@ -3,7 +3,7 @@ const infoDisplay = document.querySelector("#info");
 const startCells = [
     "","","","","","","","",""];
 let go = "circle";
-infoDisplay.textContent = "Circle goes first?";
+infoDisplay.textContent = "Circle goes first, because I said so.";
 function createBoard(){
     startCells.forEach((_cell, index) => {
         const cellElement = document.createElement('div');
